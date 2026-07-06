@@ -1,0 +1,32 @@
+# ==============================
+# Editor
+# ==============================
+.vscode/
+
+# ==============================
+# Configurações e Ambientes (Pastas com .)
+# ==============================
+.env/
+.venv/
+.env
+.kaggle/
+
+# ==============================
+# Python e Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# ==============================
+# Modelos Treinados (Machine Learning)
+# ==============================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+*.parquet
+
