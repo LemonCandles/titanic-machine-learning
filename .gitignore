@@ -1,32 +1,74 @@
 # ==============================
-# Editor
+# Ambientes Virtuais (Python)
 # ==============================
-.vscode/
-
-# ==============================
-# Configurações e Ambientes (Pastas com .)
-# ==============================
-.env/
+venv/
+env/
+.env_venv/
 .venv/
-.env
-.kaggle/
+conda/
+miniconda/
 
 # ==============================
-# Python e Jupyter Notebook
+# Variáveis de Ambiente e Segredos
+# ==============================
+.env
+.env.local
+.kaggle/
+kaggle.json
+secrets.json
+
+# ==============================
+# Jupyter Notebook
 # ==============================
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
-__pycache__/
-*.py[cod]
+ipython_config.py
 
 # ==============================
-# Modelos Treinados (Machine Learning)
+# Python: Caches, Builds e Logs
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+*.log
+
+# ==============================
+# Testes e Cobertura
+# ==============================
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# ==============================
+# IDEs e Editores de Código
+# ==============================
+.vscode/
+.idea/
+*.swp
+
+# ==============================
+# Modelos Treinados e Dados Pesados
 # ==============================
 *.pkl
 *.pickle
 *.joblib
 *.h5
+*.hdf5
 *.pt
 *.pth
+*.keras
+*.zip
+*.tar.gz
+*.rar
 *.parquet
+# Nota: *.csv está permitido por padrão para você subir o Titanic. 
+# Se for usar arquivos gigantes no futuro, basta adicionar *.csv aqui.
 
